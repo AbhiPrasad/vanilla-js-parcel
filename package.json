@@ -1,0 +1,26 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "JavaScript example starter project",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel serve index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@sentry/browser": "^6.10.0",
+    "@sentry/tracing": "^6.10.0",
+    "sentry-browser-lite": "/Users/abhijeetprasad/proj/sentry-browser-lite"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel": "^2.0.0-beta.3.1"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": [
+    "javascript",
+    "starter"
+  ]
+}
